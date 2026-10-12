@@ -1,0 +1,21 @@
+{
+  "name": "invoicemanagementapp",
+  "version": "1.0.0",
+  "description": "Invoice Management app with all the details",
+  "keywords": [
+    "fiori",
+    "approuter",
+    "invoicemanagement"
+  ],
+  "license": "ISC",
+  "author": "Shashi",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node node_modules/@sap/approuter/approuter.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@sap/approuter": "^23.3.0"
+  }
+}

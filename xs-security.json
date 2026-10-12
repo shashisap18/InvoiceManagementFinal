@@ -25,7 +25,7 @@
   "role-templates": [
     {
       "name": "Viewer",
-      "description": "View all books",
+      "description": "View all Invoices",
       "default-role-name": "Viewer: Authorized to Read All Invoices",
       "scope-references": [
         "$XSAPPNAME.Display"
