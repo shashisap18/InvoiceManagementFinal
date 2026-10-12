@@ -1,0 +1,4 @@
+ID,centerCode,description,department,createdAt,createdBy,modifiedAt,modifiedBy
+10000000-0000-0000-0000-000000000001,CC001,Information Technology,IT,2026-02-10T11:05:10Z,sneha.reddy@techcorp.com,2026-10-02T16:12:33Z,vikram.singh@techcorp.com
+10000000-0000-0000-0000-000000000002,CC002,Human Resources,HR,2026-01-15T09:15:22Z,anita.sharma@techcorp.com,2026-09-28T14:30:45Z,rajesh.kumar@techcorp.com
+10000000-0000-0000-0000-000000000003,CC003,Finance and Accounting,Finance,2026-02-10T11:05:10Z,sneha.reddy@techcorp.com,2026-10-02T16:12:33Z,vikram.singh@techcorp.com

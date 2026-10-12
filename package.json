@@ -1,0 +1,58 @@
+{
+  "name": "invoicemanagement",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "@cap-js/hana": "^3",
+    "@sap/cds": "^10",
+    "@sap/xssec": "^4"
+  },
+  "devDependencies": {
+    "@cap-js/sqlite": "^3",
+    "@sap/cds-dk": "^10",
+    "cds-plugin-ui5": "^0.17.0"
+  },
+  "scripts": {
+    "start": "cds-serve",
+    "watch-manageinvoices": "cds watch --open com.shashi.invoice.manageinvoices/index.html?sap-ui-xx-viewCache=false --livereload false"
+  },
+  "private": true,
+  "workspaces": [
+    "app/*"
+  ],
+  "sapux": [
+    "app/manageinvoices"
+  ],
+  "cds": {
+    "requires": {
+      "auth": {
+        "[development]": {
+          "kind": "mocked",
+          "users": {
+            "shashi": {
+              "password": "shashi",
+              "roles": [
+                "Display"
+              ]
+            },
+            "Test": {
+              "password": "Test",
+              "roles": [
+                "Display",
+                "Edit"
+              ]
+            }
+          }
+        },
+        "[production]": {
+          "kind": "xsuaa"
+        }
+      },
+      "[production]": {
+        "auth": {
+          "kind": "xsuaa"
+        }
+      }
+    }
+  }
+}

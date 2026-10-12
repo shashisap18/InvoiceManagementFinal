@@ -1,0 +1,54 @@
+{
+  "xsappname": "invoicemanagement",
+  "scopes": [
+    {
+      "name": "$XSAPPNAME.Display",
+      "description": "display"
+    },
+    {
+      "name": "$XSAPPNAME.Edit",
+      "description": "edit"
+    },
+    {
+      "name": "$XSAPPNAME.Delete",
+      "description": "delete"
+    },
+    {
+      "name": "$XSAPPNAME.Display",
+      "description": "Display"
+    },
+    {
+      "name": "$XSAPPNAME.Edit",
+      "description": "Edit"
+    }
+  ],
+  "role-templates": [
+    {
+      "name": "Viewer",
+      "description": "View all books",
+      "default-role-name": "Viewer: Authorized to Read All Invoices",
+      "scope-references": [
+        "$XSAPPNAME.Display"
+      ]
+    },
+    {
+      "name": "Editor",
+      "description": "Edit, delete Invoices",
+      "scope-references": [
+        "$XSAPPNAME.Edit",
+        "$XSAPPNAME.Delete"
+      ]
+    }
+  ],
+  "authorities": [
+    "$ACCEPT_GRANTED_AUTHORITIES"
+  ],
+  "oauth2-configuration": {
+    "token-validity": 9000,
+    "redirect-uris": [
+      "https://*.cfapps.us10-001.hana.ondemand.com/login/callback"
+    ]
+  },
+  "xsenableasyncservice": "true",
+  "attributes": []
+}

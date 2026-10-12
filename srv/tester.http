@@ -1,0 +1,92 @@
+###GET all Invoices
+GET http://localhost:4004/invoice/Invoices
+Authorization: Basic shashi:shashi
+
+###GET all Invoice Items
+GET http://localhost:4004/invoice/LineItems
+
+###GET particular Invoice Details
+GET http://localhost:4004/invoice/Invoices/30000000-0000-0000-0000-000000000006
+
+###GET particular Invoice Line Item details
+GET http://localhost:4004/invoice/Invoices/30000000-0000-0000-0000-000000000001/lineItems
+
+###GET lineItems of specific invoice with expand
+GET http://localhost:4004/invoice/Invoices/30000000-0000-0000-0000-000000000004?$expand=lineItems
+
+###GET all vendors
+GET http://localhost:4004/invoice/Vendors
+
+###GET metadata of all entities
+GET http://localhost:4004/invoice/$metadata
+
+###Insert a new record to the Invoice
+POST http://localhost:4004/invoice/Invoices
+Content-Type: application/json
+
+{
+  "ID": "30000000-0000-0000-0000-000000000006",
+  "createdAt": null,
+  "createdBy": null,
+  "modifiedAt": null,
+  "modifiedBy": null,
+  "invoiceNumber": "INV-2024-001",
+  "invoiceDate": "2024-03-15",
+  "dueDate": "2024-04-22",
+  "grossAmount": "150000",
+  "currency": "INR",
+  "notes": "Laptop and accessories for new joiners",
+  "vendor_ID": "20000000-0000-0000-0000-000000000001",
+  "costCenter_ID": "10000000-0000-0000-0000-000000000001",
+  "status_code": "SB"
+}
+
+###Insert a new Line Item under the newly created Invoice
+POST http://localhost:4004/invoice/Invoices
+Content-Type: application/json
+
+{
+  "ID": "30000000-0000-0000-0000-000000000003",
+  "createdAt": null,
+  "createdBy": null,
+  "modifiedAt": null,
+  "modifiedBy": null,
+  "invoiceNumber": "INV-2024-001",
+  "invoiceDate": "2024-04-27",
+  "dueDate": "2024-05-21",
+  "grossAmount": "450000",
+  "currency": "INR",
+  "notes": "Laptop and accessories for new joiners",
+  "vendor_ID": "20000000-0000-0000-0000-000000000001",
+  "costCenter_ID": "10000000-0000-0000-0000-000000000001",
+  "status_code": "SB",
+  "lineItems":[{
+      "ID": "40000000-0000-0000-0000-000000000008",
+      "createdAt": null,
+      "createdBy": null,
+      "modifiedAt": null,
+      "modifiedBy": null,
+      "invoice_ID": "30000000-0000-0000-0000-000000000004",
+      "positionNumber": 1,
+      "description": "HP Laptop 24 inch",
+      "quantity": "5.00",
+      "unitPrice": "50000.00",
+      "amount": "100000.00"
+  },{
+      "ID": "40000000-0000-0000-0000-000000000009",
+      "createdAt": null,
+      "createdBy": null,
+      "modifiedAt": null,
+      "modifiedBy": null,
+      "invoice_ID": "30000000-0000-0000-0000-000000000004",
+      "positionNumber": 2,
+      "description": "Dell Laptop 15 inch",
+      "quantity": "6.00",
+      "unitPrice": "60000.00",
+      "amount": "360000.00"
+  }
+  ]
+}
+
+###SubmitInvoice Action - custom action to change invoice status to Submitted
+POST http://localhost:4004/invoice/Invoices(30000000-0000-0000-0000-000000000002)/InvoiceService.submitInvoice

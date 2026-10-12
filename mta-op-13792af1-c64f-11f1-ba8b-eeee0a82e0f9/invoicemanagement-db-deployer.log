@@ -1,0 +1,734 @@
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:34.597818] Security group rules were updated (STDOUT, CELL)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:34.706537] Cell c839c7b1-088e-41af-b9b7-66256aacd457 successfully created container for instance 5d492f0f-e37b-477a-5afb-a374 (STDOUT, CELL)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:35.706968] Downloading droplet... (STDOUT, CELL)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:39.338275] Downloaded droplet (STDOUT, CELL)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:39.338456] Starting health monitoring of container (STDOUT, CELL)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:39.656814] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:40.117390] Invoking start command. (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:41.085548] > start (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:41.085586] > node node_modules/@sap/hdi-deploy/deploy.js --use-hdb --parameter com.sap.hana.di.table/try_fast_table_migration=true (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:41.412532] VCAP_SERVICES: (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:41.413687] { (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:41.413769] "hana": [ (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:41.413774] { (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:41.413779] "name": "invoicemanagement-db", (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:41.413784] "label": "hana", (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:41.413796] "plan": "hdi-shared", (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:41.413805] "credentials": { (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:41.413811] "schema": "4937D36AC719471E94226E4B51552287", (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:41.413814] "database_id": "a35e2938-f72b-43f4-a1f9-bcd3f3c4e4fa", (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:41.413818] "user": "4937D36AC719471E94226E4B51552287_677U4N9J1107O00PSOC83TEMB_RT", (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:41.413822] "hdi_user": "4937D36AC719471E94226E4B51552287_677U4N9J1107O00PSOC83TEMB_DT" (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:41.413828] }, (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:41.413831] "tags": [ (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:41.413833] "hana", (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:41.413836] "database", (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:41.413839] "relational" (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:41.413842] ] (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:41.413844] } (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:41.413847] ] (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:41.413849] } (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:42.047884] @sap/hdi-deploy, version 5.7.0 (mode default), server version 4.00.000.00.1790676381 (4.0.0.0), cloud version 2026.28.8, node version 24.19.0, HDI version 1017, container API version 1008 (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:42.047925] Deployment started at 2026-10-12 15:05:42 (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:42.047930] Using hdb@2.30.1 for connection (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:42.087212] No ignore file at /home/vcap/app/.hdiignore. (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:42.087758] Collecting files... (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:42.098602] Collecting files... ok (0s 11ms) (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:42.098823] 3 directories collected (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:42.099446] 33 files collected (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:42.099483] 0 reusable modules collected (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:42.099599] Target service: invoicemanagement-db (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:42.325619] Previous build with request ID 261 finished at 2026-10-12T15:01:02.773 with status Rolled back and message: Starting make in the container "4937D36AC719471E94226E4B51552287" with 0 files to deploy, 0 files to undeploy... ok. (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:42.325653] Processing revoke files... (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:42.325662] Processing revoke files... ok (0s 0ms) (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:42.325665] Processing grants files... (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:42.326059] Processing grants files... ok (0s 1ms) (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:42.332308] Preprocessing files... (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:42.332600] Preprocessing files... ok (0s 0ms) (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:42.332993] Connecting to the container "4937D36AC719471E94226E4B51552287"... (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:42.424292] Connecting to the container "4937D36AC719471E94226E4B51552287"... ok (0s 91ms) (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:42.424328] Locking the container "4937D36AC719471E94226E4B51552287"... (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:42.581414] Locking the container "4937D36AC719471E94226E4B51552287"... ok (0s 156ms) (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:42.581447] Synchronizing files with the container "4937D36AC719471E94226E4B51552287"... (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:42.803061] Deleting files... (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:42.954102] Deleting files... ok (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:42.954136] Writing files... (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:42.955111] Writing 3 items (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:43.121906] Writing files... ok (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:43.122108] Synchronizing files with the container "4937D36AC719471E94226E4B51552287"... ok (0s 541ms) (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:43.122182] added files: [] (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:43.122232] modified files: [] (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:43.122236] deleted files: [] (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:43.122575] 0 modified or added files are scheduled for deploy based on delta detection (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:43.123622] 0 deleted files are scheduled for undeploy based on delta detection (filtered by undeploy allowlist) (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:43.123807] 0 files are scheduled for deploy based on explicit specification (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:43.123886] 0 files are scheduled for undeploy based on explicit specification (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:43.124035] Deploying to the container "4937D36AC719471E94226E4B51552287"... (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:43.416401] Starting make in the container "4937D36AC719471E94226E4B51552287" with 0 files to deploy, 0 files to undeploy... (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:43.416433] Migrating libraries... (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:43.416440] Migrating libraries... ok (0s 17ms) (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:43.416444] Making... (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:43.416468] Preparing... (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:43.416471] Preparing the make transaction... (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:43.416570] Preparing... ok (0s 0ms) (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:43.416721] Preparing the make transaction... ok (0s 13ms) (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:43.416845] Calculating dependencies... (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:43.416858] Expanding... (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:43.416861] Expanding... ok (0s 5ms) (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:43.416863] Precompiling... (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:43.416869] Precompiling... ok (0s 0ms) (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:43.416872] Merging... (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:43.416875] Merging... ok (0s 0ms) (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:43.416949] Calculating dependencies... ok (0s 5ms) (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:43.416952] No make necessary (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:43.417480] Making... ok (0s 31ms) (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:43.417505] Starting make in the container "4937D36AC719471E94226E4B51552287" with 0 files to deploy, 0 files to undeploy... ok (0s 64ms) (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:43.417514] Deploying to the container "4937D36AC719471E94226E4B51552287"... ok (0s 293ms) (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:43.418042] No default-access-role handling needed; global role "4937D36AC719471E94226E4B51552287::access_role" will not be adapted (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:43.418679] Unlocking the container "4937D36AC719471E94226E4B51552287"... (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:43.419513] Unlocking the container "4937D36AC719471E94226E4B51552287"... ok (0s 1ms) (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:43.419720] Deployment to container 4937D36AC719471E94226E4B51552287 done [Deployment ID: none]. (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:43.420667] Deployment ended at 2026-10-12 15:05:43 (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:43.421583] (2s 247ms) (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:43.442829] npm notice (STDERR, APP/PROC/WEB)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:43.442865] npm notice New major version of npm available! 11.17.0 -> 12.2.0 (STDERR, APP/PROC/WEB)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:43.442878] npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.0 (STDERR, APP/PROC/WEB)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:43.442881] npm notice To update run: npm install -g npm@12.2.0 (STDERR, APP/PROC/WEB)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:43.442884] npm notice (STDERR, APP/PROC/WEB)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:43.586152] Exit status 0 (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:50.539658] Cell c839c7b1-088e-41af-b9b7-66256aacd457 stopping instance 5d492f0f-e37b-477a-5afb-a374 (STDOUT, CELL)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:50.539735] Cell c839c7b1-088e-41af-b9b7-66256aacd457 destroying container for instance 5d492f0f-e37b-477a-5afb-a374 (STDOUT, CELL)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:50.560808] Process has crashed with type: "web" (STDOUT, API)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:50.575497] App instance exited with guid 424548b1-9277-40a8-82a8-500c5ffcb61a payload: {"instance"=>"5d492f0f-e37b-477a-5afb-a374", "index"=>0, "cell_id"=>"c839c7b1-088e-41af-b9b7-66256aacd457", "reason"=>"CRASHED", "exit_description"=>"Codependent step exited", "crash_count"=>7, "crash_timestamp"=>1791817550534943044, "version"=>"11d6ed8c-240a-4c36-9e52-16ff93aab997"} (STDOUT, API)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:51.178322] Exit status 137 (STDOUT, PROXY)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:54.268360] Cell c839c7b1-088e-41af-b9b7-66256aacd457 successfully destroyed container for instance 5d492f0f-e37b-477a-5afb-a374 (STDOUT, CELL)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:10:55.242778] Updated app with guid 424548b1-9277-40a8-82a8-500c5ffcb61a ({"lifecycle"=>{"data"=>{"buildpacks"=>["nodejs_buildpack"]}, "type"=>"buildpack"}}) (STDOUT, API)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:10:55.350641] Updating process: "web" (STDOUT, API)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:04.722612] Uploading app package for app with guid 424548b1-9277-40a8-82a8-500c5ffcb61a (STDOUT, API)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:04.881695] Updated app with guid 424548b1-9277-40a8-82a8-500c5ffcb61a ({"environment_variables"=>"[PRIVATE DATA HIDDEN]"}) (STDOUT, API)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:14.905692] Stopping app with guid 424548b1-9277-40a8-82a8-500c5ffcb61a (STDOUT, API)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:15.125393] Creating build for app with guid 424548b1-9277-40a8-82a8-500c5ffcb61a (STDOUT, API)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:15.604885] Downloading nodejs_buildpack... (STDOUT, STG)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:15.650422] Downloaded nodejs_buildpack (STDOUT, STG)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:15.650480] Cell 684caff8-89cd-492b-be01-b3d0835f1763 creating container for instance 1ef48836-6f15-4eba-99c3-a7d831b8d3c0 (STDOUT, STG)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:20.986282] Security group rules were updated (STDOUT, STG)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:21.165088] Cell 684caff8-89cd-492b-be01-b3d0835f1763 successfully created container for instance 1ef48836-6f15-4eba-99c3-a7d831b8d3c0 (STDOUT, STG)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:21.427202] Downloading app package... (STDOUT, STG)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:21.427282] Downloading build artifacts cache... (STDOUT, STG)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:21.679535] Downloaded build artifacts cache (217B) (STDOUT, STG)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:22.189746] Downloaded app package (2.4M) (STDOUT, STG)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:22.272529] -----> Nodejs Buildpack version 1.9.4 (STDOUT, STG)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:22.536578] -----> Bootstrapping python (STDOUT, STG)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:22.536600] -----> Installing python 3.13.15 (STDOUT, STG)#
+#2026 10 12 15:11:24.728#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8590#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:22.536849] Copy [/tmp/buildpacks/5be6efbe8830cdb7/dependencies/6832464ec708e1392d482a6034aa2c94/python_3.13.15_linux_x64_cflinuxfs4_0c9cd9fd.tgz] (STDOUT, STG)#
+#2026 10 12 15:11:34.725#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8595#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:29.645978] -----> Installing binaries (STDOUT, STG)#
+#2026 10 12 15:11:34.725#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8595#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:29.646569] engines.node (package.json): ^24 (STDOUT, STG)#
+#2026 10 12 15:11:34.725#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8595#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:29.646595] engines.npm (package.json): unspecified (use default) (STDOUT, STG)#
+#2026 10 12 15:11:34.725#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8595#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:29.646821] -----> Installing node 24.19.0 (STDOUT, STG)#
+#2026 10 12 15:11:34.725#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8595#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:29.647162] Copy [/tmp/buildpacks/5be6efbe8830cdb7/dependencies/cf9035c55d85610a9158faa009b7a7b5/node_24.19.0_linux_x64_cflinuxfs4_9ab26efa.tgz] (STDOUT, STG)#
+#2026 10 12 15:11:34.725#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8595#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:33.870996] Using default npm version: 11.17.0 (STDOUT, STG)#
+#2026 10 12 15:11:34.725#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8595#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:33.871033] -----> Installing yarn 1.22.22 (STDOUT, STG)#
+#2026 10 12 15:11:34.725#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8595#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:33.871365] Copy [/tmp/buildpacks/5be6efbe8830cdb7/dependencies/e4fe26756e9984a665478d350474fa2e/yarn_1.22.22_linux_noarch_any-stack_b6132b86.tgz] (STDOUT, STG)#
+#2026 10 12 15:11:34.725#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8595#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:34.334599] Installed yarn 1.22.22 (STDOUT, STG)#
+#2026 10 12 15:11:34.725#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8595#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:34.334654] -----> Creating runtime environment (STDOUT, STG)#
+#2026 10 12 15:11:34.725#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8595#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:34.342498] NODE_ENV=production (STDOUT, STG)#
+#2026 10 12 15:11:34.725#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8595#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:34.342517] NODE_HOME=/tmp/contents2487218819/deps/0/node (STDOUT, STG)#
+#2026 10 12 15:11:34.725#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8595#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:34.342521] NODE_MODULES_CACHE=true (STDOUT, STG)#
+#2026 10 12 15:11:34.725#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8595#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:34.342523] NODE_VERBOSE=false (STDOUT, STG)#
+#2026 10 12 15:11:34.725#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8595#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:34.342525] NPM_CONFIG_LOGLEVEL=error (STDOUT, STG)#
+#2026 10 12 15:11:34.725#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8595#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:34.342537] NPM_CONFIG_PRODUCTION=true (STDOUT, STG)#
+#2026 10 12 15:11:34.725#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8595#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:34.343098] -----> Building dependencies (STDOUT, STG)#
+#2026 10 12 15:11:34.725#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8595#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:34.343110] Prebuild detected (node_modules already exists) (STDOUT, STG)#
+#2026 10 12 15:11:34.725#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8595#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:34.343245] Rebuilding any native modules (STDOUT, STG)#
+#2026 10 12 15:11:44.810#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8602#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:35.246958] rebuilt dependencies successfully (STDOUT, STG)#
+#2026 10 12 15:11:44.810#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8602#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:35.463669] Installing any new modules (package.json + package-lock.json) (STDOUT, STG)#
+#2026 10 12 15:11:44.810#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8602#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:36.267791] up to date in 642ms (STDOUT, STG)#
+#2026 10 12 15:11:44.810#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8602#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:36.267962] 4 packages are looking for funding (STDOUT, STG)#
+#2026 10 12 15:11:44.810#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8602#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:36.268093] run `npm fund` for details (STDOUT, STG)#
+#2026 10 12 15:11:44.810#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8602#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:37.608462] Contrast Security no credentials found. Will not write environment files. (STDOUT, STG)#
+#2026 10 12 15:11:54.800#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8617#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:48.704324] Exit status 0 (STDOUT, STG)#
+#2026 10 12 15:11:54.800#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8617#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:48.704402] Uploading droplet, build artifacts cache... (STDOUT, STG)#
+#2026 10 12 15:11:54.800#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8617#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:48.704481] Uploading droplet... (STDOUT, STG)#
+#2026 10 12 15:11:54.800#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8617#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:48.704517] Uploading build artifacts cache... (STDOUT, STG)#
+#2026 10 12 15:11:54.800#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8617#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:48.791219] Uploaded build artifacts cache (225B) (STDOUT, STG)#
+#2026 10 12 15:11:54.800#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8617#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:49.434476] Creating droplet for app with guid 424548b1-9277-40a8-82a8-500c5ffcb61a (STDOUT, API)#
+#2026 10 12 15:11:54.800#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8617#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:54.505690] Uploaded droplet (59.4M) (STDOUT, STG)#
+#2026 10 12 15:11:54.800#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8617#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:54.520281] Uploading complete (STDOUT, STG)#
+#2026 10 12 15:12:04.983#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8624#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:54.854842] Cell 684caff8-89cd-492b-be01-b3d0835f1763 stopping instance 1ef48836-6f15-4eba-99c3-a7d831b8d3c0 (STDOUT, STG)#
+#2026 10 12 15:12:04.983#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8624#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:54.854881] Cell 684caff8-89cd-492b-be01-b3d0835f1763 destroying container for instance 1ef48836-6f15-4eba-99c3-a7d831b8d3c0 (STDOUT, STG)#
+#2026 10 12 15:12:04.983#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8624#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:54.909628] Staging complete for build 1ef48836-6f15-4eba-99c3-a7d831b8d3c0 (STDOUT, API)#
+#2026 10 12 15:12:04.983#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8624#
+[PollStageAppStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:56.351438] Cell 684caff8-89cd-492b-be01-b3d0835f1763 successfully destroyed container for instance 1ef48836-6f15-4eba-99c3-a7d831b8d3c0 (STDOUT, STG)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:42.954102] Deleting files... ok (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:42.954136] Writing files... (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:42.955111] Writing 3 items (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:43.121906] Writing files... ok (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:43.122108] Synchronizing files with the container "4937D36AC719471E94226E4B51552287"... ok (0s 541ms) (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:43.122182] added files: [] (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:43.122232] modified files: [] (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:43.122236] deleted files: [] (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:43.122575] 0 modified or added files are scheduled for deploy based on delta detection (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:43.123622] 0 deleted files are scheduled for undeploy based on delta detection (filtered by undeploy allowlist) (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:43.123807] 0 files are scheduled for deploy based on explicit specification (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:43.123886] 0 files are scheduled for undeploy based on explicit specification (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:43.124035] Deploying to the container "4937D36AC719471E94226E4B51552287"... (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:43.416401] Starting make in the container "4937D36AC719471E94226E4B51552287" with 0 files to deploy, 0 files to undeploy... (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:43.416433] Migrating libraries... (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:43.416440] Migrating libraries... ok (0s 17ms) (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:43.416444] Making... (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:43.416468] Preparing... (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:43.416471] Preparing the make transaction... (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:43.416570] Preparing... ok (0s 0ms) (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:43.416721] Preparing the make transaction... ok (0s 13ms) (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:43.416845] Calculating dependencies... (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:43.416858] Expanding... (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:43.416861] Expanding... ok (0s 5ms) (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:43.416863] Precompiling... (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:43.416869] Precompiling... ok (0s 0ms) (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:43.416872] Merging... (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:43.416875] Merging... ok (0s 0ms) (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:43.416949] Calculating dependencies... ok (0s 5ms) (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:43.416952] No make necessary (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:43.417480] Making... ok (0s 31ms) (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:43.417505] Starting make in the container "4937D36AC719471E94226E4B51552287" with 0 files to deploy, 0 files to undeploy... ok (0s 64ms) (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:43.417514] Deploying to the container "4937D36AC719471E94226E4B51552287"... ok (0s 293ms) (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:43.418042] No default-access-role handling needed; global role "4937D36AC719471E94226E4B51552287::access_role" will not be adapted (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:43.418679] Unlocking the container "4937D36AC719471E94226E4B51552287"... (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:43.419513] Unlocking the container "4937D36AC719471E94226E4B51552287"... ok (0s 1ms) (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:43.419720] Deployment to container 4937D36AC719471E94226E4B51552287 done [Deployment ID: none]. (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:43.420667] Deployment ended at 2026-10-12 15:05:43 (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:43.421583] (2s 247ms) (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:43.442829] npm notice (STDERR, APP/PROC/WEB)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:43.442865] npm notice New major version of npm available! 11.17.0 -> 12.2.0 (STDERR, APP/PROC/WEB)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:43.442878] npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.0 (STDERR, APP/PROC/WEB)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:43.442881] npm notice To update run: npm install -g npm@12.2.0 (STDERR, APP/PROC/WEB)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:43.442884] npm notice (STDERR, APP/PROC/WEB)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:43.586152] Exit status 0 (STDOUT, APP/PROC/WEB)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:50.539658] Cell c839c7b1-088e-41af-b9b7-66256aacd457 stopping instance 5d492f0f-e37b-477a-5afb-a374 (STDOUT, CELL)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:50.539735] Cell c839c7b1-088e-41af-b9b7-66256aacd457 destroying container for instance 5d492f0f-e37b-477a-5afb-a374 (STDOUT, CELL)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:50.560808] Process has crashed with type: "web" (STDOUT, API)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:50.575497] App instance exited with guid 424548b1-9277-40a8-82a8-500c5ffcb61a payload: {"instance"=>"5d492f0f-e37b-477a-5afb-a374", "index"=>0, "cell_id"=>"c839c7b1-088e-41af-b9b7-66256aacd457", "reason"=>"CRASHED", "exit_description"=>"Codependent step exited", "crash_count"=>7, "crash_timestamp"=>1791817550534943044, "version"=>"11d6ed8c-240a-4c36-9e52-16ff93aab997"} (STDOUT, API)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:51.178322] Exit status 137 (STDOUT, PROXY)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:05:54.268360] Cell c839c7b1-088e-41af-b9b7-66256aacd457 successfully destroyed container for instance 5d492f0f-e37b-477a-5afb-a374 (STDOUT, CELL)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:10:55.242778] Updated app with guid 424548b1-9277-40a8-82a8-500c5ffcb61a ({"lifecycle"=>{"data"=>{"buildpacks"=>["nodejs_buildpack"]}, "type"=>"buildpack"}}) (STDOUT, API)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:10:55.350641] Updating process: "web" (STDOUT, API)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:04.722612] Uploading app package for app with guid 424548b1-9277-40a8-82a8-500c5ffcb61a (STDOUT, API)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:04.881695] Updated app with guid 424548b1-9277-40a8-82a8-500c5ffcb61a ({"environment_variables"=>"[PRIVATE DATA HIDDEN]"}) (STDOUT, API)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:14.905692] Stopping app with guid 424548b1-9277-40a8-82a8-500c5ffcb61a (STDOUT, API)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:15.125393] Creating build for app with guid 424548b1-9277-40a8-82a8-500c5ffcb61a (STDOUT, API)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:15.604885] Downloading nodejs_buildpack... (STDOUT, STG)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:15.650422] Downloaded nodejs_buildpack (STDOUT, STG)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:15.650480] Cell 684caff8-89cd-492b-be01-b3d0835f1763 creating container for instance 1ef48836-6f15-4eba-99c3-a7d831b8d3c0 (STDOUT, STG)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:20.986282] Security group rules were updated (STDOUT, STG)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:21.165088] Cell 684caff8-89cd-492b-be01-b3d0835f1763 successfully created container for instance 1ef48836-6f15-4eba-99c3-a7d831b8d3c0 (STDOUT, STG)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:21.427202] Downloading app package... (STDOUT, STG)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:21.427282] Downloading build artifacts cache... (STDOUT, STG)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:21.679535] Downloaded build artifacts cache (217B) (STDOUT, STG)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:22.189746] Downloaded app package (2.4M) (STDOUT, STG)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:22.272529] -----> Nodejs Buildpack version 1.9.4 (STDOUT, STG)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:22.536578] -----> Bootstrapping python (STDOUT, STG)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:22.536600] -----> Installing python 3.13.15 (STDOUT, STG)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:22.536849] Copy [/tmp/buildpacks/5be6efbe8830cdb7/dependencies/6832464ec708e1392d482a6034aa2c94/python_3.13.15_linux_x64_cflinuxfs4_0c9cd9fd.tgz] (STDOUT, STG)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:29.645978] -----> Installing binaries (STDOUT, STG)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:29.646569] engines.node (package.json): ^24 (STDOUT, STG)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:29.646595] engines.npm (package.json): unspecified (use default) (STDOUT, STG)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:29.646821] -----> Installing node 24.19.0 (STDOUT, STG)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:29.647162] Copy [/tmp/buildpacks/5be6efbe8830cdb7/dependencies/cf9035c55d85610a9158faa009b7a7b5/node_24.19.0_linux_x64_cflinuxfs4_9ab26efa.tgz] (STDOUT, STG)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:33.870996] Using default npm version: 11.17.0 (STDOUT, STG)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:33.871033] -----> Installing yarn 1.22.22 (STDOUT, STG)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:33.871365] Copy [/tmp/buildpacks/5be6efbe8830cdb7/dependencies/e4fe26756e9984a665478d350474fa2e/yarn_1.22.22_linux_noarch_any-stack_b6132b86.tgz] (STDOUT, STG)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:34.334599] Installed yarn 1.22.22 (STDOUT, STG)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:34.334654] -----> Creating runtime environment (STDOUT, STG)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:34.342498] NODE_ENV=production (STDOUT, STG)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:34.342517] NODE_HOME=/tmp/contents2487218819/deps/0/node (STDOUT, STG)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:34.342521] NODE_MODULES_CACHE=true (STDOUT, STG)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:34.342523] NODE_VERBOSE=false (STDOUT, STG)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:34.342525] NPM_CONFIG_LOGLEVEL=error (STDOUT, STG)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:34.342537] NPM_CONFIG_PRODUCTION=true (STDOUT, STG)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:34.343098] -----> Building dependencies (STDOUT, STG)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:34.343110] Prebuild detected (node_modules already exists) (STDOUT, STG)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:34.343245] Rebuilding any native modules (STDOUT, STG)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:35.246958] rebuilt dependencies successfully (STDOUT, STG)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:35.463669] Installing any new modules (package.json + package-lock.json) (STDOUT, STG)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:36.267791] up to date in 642ms (STDOUT, STG)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:36.267962] 4 packages are looking for funding (STDOUT, STG)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:36.268093] run `npm fund` for details (STDOUT, STG)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:37.608462] Contrast Security no credentials found. Will not write environment files. (STDOUT, STG)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:48.704324] Exit status 0 (STDOUT, STG)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:48.704402] Uploading droplet, build artifacts cache... (STDOUT, STG)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:48.704481] Uploading droplet... (STDOUT, STG)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:48.704517] Uploading build artifacts cache... (STDOUT, STG)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:48.791219] Uploaded build artifacts cache (225B) (STDOUT, STG)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:49.434476] Creating droplet for app with guid 424548b1-9277-40a8-82a8-500c5ffcb61a (STDOUT, API)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:54.505690] Uploaded droplet (59.4M) (STDOUT, STG)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:54.520281] Uploading complete (STDOUT, STG)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:54.854842] Cell 684caff8-89cd-492b-be01-b3d0835f1763 stopping instance 1ef48836-6f15-4eba-99c3-a7d831b8d3c0 (STDOUT, STG)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:54.854881] Cell 684caff8-89cd-492b-be01-b3d0835f1763 destroying container for instance 1ef48836-6f15-4eba-99c3-a7d831b8d3c0 (STDOUT, STG)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:54.909628] Staging complete for build 1ef48836-6f15-4eba-99c3-a7d831b8d3c0 (STDOUT, API)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:11:56.351438] Cell 684caff8-89cd-492b-be01-b3d0835f1763 successfully destroyed container for instance 1ef48836-6f15-4eba-99c3-a7d831b8d3c0 (STDOUT, STG)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:05.053045] Updated app with guid 424548b1-9277-40a8-82a8-500c5ffcb61a ({:droplet_guid=>"1a47f9eb-8da0-4c83-b6c1-480b8ff7fc25"}) (STDOUT, API)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:05.566976] Cell 684caff8-89cd-492b-be01-b3d0835f1763 creating container for instance 6eca7d93-3537-4924-9554-decaca32776e (STDOUT, CELL)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:10.926939] Security group rules were updated (STDOUT, CELL)#
+#2026 10 12 15:12:14.933#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8623#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:11.087124] Cell 684caff8-89cd-492b-be01-b3d0835f1763 successfully created container for instance 6eca7d93-3537-4924-9554-decaca32776e (STDOUT, CELL)#
+#2026 10 12 15:12:25.043#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8636#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:17.370290] Invoking pre-start scripts. (STDOUT, APP/TASK/deploy)#
+#2026 10 12 15:12:25.043#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8636#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:17.659646] Invoking start command. (STDOUT, APP/TASK/deploy)#
+#2026 10 12 15:12:25.043#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8636#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:18.331163] > start (STDOUT, APP/TASK/deploy)#
+#2026 10 12 15:12:25.043#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8636#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:18.331187] > node node_modules/@sap/hdi-deploy/deploy.js --use-hdb --parameter com.sap.hana.di.table/try_fast_table_migration=true (STDOUT, APP/TASK/deploy)#
+#2026 10 12 15:12:25.043#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8636#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:18.618480] VCAP_SERVICES: (STDOUT, APP/TASK/deploy)#
+#2026 10 12 15:12:25.043#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8636#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:18.619149] { (STDOUT, APP/TASK/deploy)#
+#2026 10 12 15:12:25.043#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8636#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:18.619163] "hana": [ (STDOUT, APP/TASK/deploy)#
+#2026 10 12 15:12:25.043#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8636#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:18.619165] { (STDOUT, APP/TASK/deploy)#
+#2026 10 12 15:12:25.043#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8636#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:18.619168] "name": "invoicemanagement-db", (STDOUT, APP/TASK/deploy)#
+#2026 10 12 15:12:25.043#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8636#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:18.619175] "label": "hana", (STDOUT, APP/TASK/deploy)#
+#2026 10 12 15:12:25.043#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8636#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:18.619179] "plan": "hdi-shared", (STDOUT, APP/TASK/deploy)#
+#2026 10 12 15:12:25.043#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8636#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:18.619182] "credentials": { (STDOUT, APP/TASK/deploy)#
+#2026 10 12 15:12:25.043#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8636#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:18.619185] "schema": "4937D36AC719471E94226E4B51552287", (STDOUT, APP/TASK/deploy)#
+#2026 10 12 15:12:25.043#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8636#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:18.619188] "database_id": "a35e2938-f72b-43f4-a1f9-bcd3f3c4e4fa", (STDOUT, APP/TASK/deploy)#
+#2026 10 12 15:12:25.043#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8636#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:18.619191] "user": "4937D36AC719471E94226E4B51552287_677U4N9J1107O00PSOC83TEMB_RT", (STDOUT, APP/TASK/deploy)#
+#2026 10 12 15:12:25.043#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8636#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:18.619197] "hdi_user": "4937D36AC719471E94226E4B51552287_677U4N9J1107O00PSOC83TEMB_DT" (STDOUT, APP/TASK/deploy)#
+#2026 10 12 15:12:25.043#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8636#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:18.619199] }, (STDOUT, APP/TASK/deploy)#
+#2026 10 12 15:12:25.043#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8636#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:18.619205] "tags": [ (STDOUT, APP/TASK/deploy)#
+#2026 10 12 15:12:25.043#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8636#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:18.619207] "hana", (STDOUT, APP/TASK/deploy)#
+#2026 10 12 15:12:25.043#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8636#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:18.619208] "database", (STDOUT, APP/TASK/deploy)#
+#2026 10 12 15:12:25.043#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8636#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:18.619210] "relational" (STDOUT, APP/TASK/deploy)#
+#2026 10 12 15:12:25.044#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8636#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:18.619211] ] (STDOUT, APP/TASK/deploy)#
+#2026 10 12 15:12:25.044#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8636#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:18.619240] } (STDOUT, APP/TASK/deploy)#
+#2026 10 12 15:12:25.044#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8636#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:18.619242] ] (STDOUT, APP/TASK/deploy)#
+#2026 10 12 15:12:25.044#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8636#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:18.619243] } (STDOUT, APP/TASK/deploy)#
+#2026 10 12 15:12:25.044#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8636#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:19.019262] @sap/hdi-deploy, version 5.7.0 (mode default), server version 4.00.000.00.1790676381 (4.0.0.0), cloud version 2026.28.8, node version 24.19.0, HDI version 1017, container API version 1008 (STDOUT, APP/TASK/deploy)#
+#2026 10 12 15:12:25.044#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8636#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:19.019303] Deployment started at 2026-10-12 15:12:19 (STDOUT, APP/TASK/deploy)#
+#2026 10 12 15:12:25.044#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8636#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:19.019579] Using hdb@2.30.1 for connection (STDOUT, APP/TASK/deploy)#
+#2026 10 12 15:12:25.044#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8636#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:19.052875] No ignore file at /home/vcap/app/.hdiignore. (STDOUT, APP/TASK/deploy)#
+#2026 10 12 15:12:25.044#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8636#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:19.053086] Collecting files... (STDOUT, APP/TASK/deploy)#
+#2026 10 12 15:12:25.044#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8636#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:19.062163] Collecting files... ok (0s 9ms) (STDOUT, APP/TASK/deploy)#
+#2026 10 12 15:12:25.044#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8636#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:19.062189] 3 directories collected (STDOUT, APP/TASK/deploy)#
+#2026 10 12 15:12:25.044#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8636#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:19.062252] 33 files collected (STDOUT, APP/TASK/deploy)#
+#2026 10 12 15:12:25.044#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8636#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:19.062290] 0 reusable modules collected (STDOUT, APP/TASK/deploy)#
+#2026 10 12 15:12:25.044#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8636#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:19.062388] Target service: invoicemanagement-db (STDOUT, APP/TASK/deploy)#
+#2026 10 12 15:12:25.044#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8636#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:19.249387] Previous build with request ID 266 finished at 2026-10-12T15:05:43.383 with status Rolled back and message: Starting make in the container "4937D36AC719471E94226E4B51552287" with 0 files to deploy, 0 files to undeploy... ok. (STDOUT, APP/TASK/deploy)#
+#2026 10 12 15:12:25.044#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8636#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:19.249424] Processing revoke files... (STDOUT, APP/TASK/deploy)#
+#2026 10 12 15:12:25.044#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8636#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:19.249573] Processing revoke files... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 10 12 15:12:25.044#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8636#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:19.249662] Processing grants files... (STDOUT, APP/TASK/deploy)#
+#2026 10 12 15:12:25.044#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8636#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:19.249730] Processing grants files... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 10 12 15:12:25.044#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8636#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:19.252341] Preprocessing files... (STDOUT, APP/TASK/deploy)#
+#2026 10 12 15:12:25.044#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8636#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:19.252528] Preprocessing files... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 10 12 15:12:25.044#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8636#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:19.252584] Connecting to the container "4937D36AC719471E94226E4B51552287"... (STDOUT, APP/TASK/deploy)#
+#2026 10 12 15:12:25.044#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8636#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:19.319411] Connecting to the container "4937D36AC719471E94226E4B51552287"... ok (0s 67ms) (STDOUT, APP/TASK/deploy)#
+#2026 10 12 15:12:25.044#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8636#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:19.319462] Locking the container "4937D36AC719471E94226E4B51552287"... (STDOUT, APP/TASK/deploy)#
+#2026 10 12 15:12:25.044#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8636#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:19.444445] Locking the container "4937D36AC719471E94226E4B51552287"... ok (0s 125ms) (STDOUT, APP/TASK/deploy)#
+#2026 10 12 15:12:25.044#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8636#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:19.444464] Synchronizing files with the container "4937D36AC719471E94226E4B51552287"... (STDOUT, APP/TASK/deploy)#
+#2026 10 12 15:12:25.044#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8636#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:19.655630] Deleting files... (STDOUT, APP/TASK/deploy)#
+#2026 10 12 15:12:25.044#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8636#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:19.838286] Deleting files... ok (STDOUT, APP/TASK/deploy)#
+#2026 10 12 15:12:25.044#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8636#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:19.838349] Writing files... (STDOUT, APP/TASK/deploy)#
+#2026 10 12 15:12:25.044#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8636#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:19.838565] Writing 3 items (STDOUT, APP/TASK/deploy)#
+#2026 10 12 15:12:25.044#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8636#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:20.013687] Writing files... ok (STDOUT, APP/TASK/deploy)#
+#2026 10 12 15:12:25.044#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8636#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:20.013848] Synchronizing files with the container "4937D36AC719471E94226E4B51552287"... ok (0s 569ms) (STDOUT, APP/TASK/deploy)#
+#2026 10 12 15:12:25.044#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8636#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:20.014183] added files: [] (STDOUT, APP/TASK/deploy)#
+#2026 10 12 15:12:25.044#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8636#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:20.014247] modified files: [] (STDOUT, APP/TASK/deploy)#
+#2026 10 12 15:12:25.044#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8636#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:20.014319] deleted files: [] (STDOUT, APP/TASK/deploy)#
+#2026 10 12 15:12:25.044#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8636#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:20.014568] 0 modified or added files are scheduled for deploy based on delta detection (STDOUT, APP/TASK/deploy)#
+#2026 10 12 15:12:25.044#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8636#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:20.014830] 0 deleted files are scheduled for undeploy based on delta detection (filtered by undeploy allowlist) (STDOUT, APP/TASK/deploy)#
+#2026 10 12 15:12:25.044#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8636#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:20.015021] 0 files are scheduled for deploy based on explicit specification (STDOUT, APP/TASK/deploy)#
+#2026 10 12 15:12:25.044#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8636#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:20.015029] 0 files are scheduled for undeploy based on explicit specification (STDOUT, APP/TASK/deploy)#
+#2026 10 12 15:12:25.044#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8636#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:20.015044] Deploying to the container "4937D36AC719471E94226E4B51552287"... (STDOUT, APP/TASK/deploy)#
+#2026 10 12 15:12:25.044#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8636#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:20.264864] Starting make in the container "4937D36AC719471E94226E4B51552287" with 0 files to deploy, 0 files to undeploy... (STDOUT, APP/TASK/deploy)#
+#2026 10 12 15:12:25.044#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8636#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:20.264884] Migrating libraries... (STDOUT, APP/TASK/deploy)#
+#2026 10 12 15:12:25.044#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8636#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:20.264890] Migrating libraries... ok (0s 11ms) (STDOUT, APP/TASK/deploy)#
+#2026 10 12 15:12:25.044#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8636#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:20.264894] Making... (STDOUT, APP/TASK/deploy)#
+#2026 10 12 15:12:25.044#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8636#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:20.264897] Preparing... (STDOUT, APP/TASK/deploy)#
+#2026 10 12 15:12:25.044#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8636#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:20.264900] Preparing the make transaction... (STDOUT, APP/TASK/deploy)#
+#2026 10 12 15:12:25.044#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8636#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:20.264912] Preparing... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 10 12 15:12:25.044#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8636#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:20.264915] Preparing the make transaction... ok (0s 14ms) (STDOUT, APP/TASK/deploy)#
+#2026 10 12 15:12:25.044#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8636#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:20.264942] Calculating dependencies... (STDOUT, APP/TASK/deploy)#
+#2026 10 12 15:12:25.044#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8636#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:20.265123] Expanding... (STDOUT, APP/TASK/deploy)#
+#2026 10 12 15:12:25.044#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8636#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:20.265245] Expanding... ok (0s 6ms) (STDOUT, APP/TASK/deploy)#
+#2026 10 12 15:12:25.044#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8636#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:20.265314] Precompiling... (STDOUT, APP/TASK/deploy)#
+#2026 10 12 15:12:25.044#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8636#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:20.265325] Precompiling... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 10 12 15:12:25.044#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8636#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:20.265329] Merging... (STDOUT, APP/TASK/deploy)#
+#2026 10 12 15:12:25.044#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8636#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:20.265356] Merging... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 10 12 15:12:25.044#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8636#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:20.265365] Calculating dependencies... ok (0s 6ms) (STDOUT, APP/TASK/deploy)#
+#2026 10 12 15:12:25.044#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8636#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:20.265367] No make necessary (STDOUT, APP/TASK/deploy)#
+#2026 10 12 15:12:25.044#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8636#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:20.265434] Making... ok (0s 31ms) (STDOUT, APP/TASK/deploy)#
+#2026 10 12 15:12:25.044#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8636#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:20.265442] Starting make in the container "4937D36AC719471E94226E4B51552287" with 0 files to deploy, 0 files to undeploy... ok (0s 55ms) (STDOUT, APP/TASK/deploy)#
+#2026 10 12 15:12:25.044#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8636#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:20.265762] Deploying to the container "4937D36AC719471E94226E4B51552287"... ok (0s 251ms) (STDOUT, APP/TASK/deploy)#
+#2026 10 12 15:12:25.044#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8636#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:20.266188] No default-access-role handling needed; global role "4937D36AC719471E94226E4B51552287::access_role" will not be adapted (STDOUT, APP/TASK/deploy)#
+#2026 10 12 15:12:25.044#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8636#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:20.266371] Unlocking the container "4937D36AC719471E94226E4B51552287"... (STDOUT, APP/TASK/deploy)#
+#2026 10 12 15:12:25.044#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8636#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:20.266666] Unlocking the container "4937D36AC719471E94226E4B51552287"... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 10 12 15:12:25.044#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8636#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:20.266792] Deployment to container 4937D36AC719471E94226E4B51552287 done [Deployment ID: none]. (STDOUT, APP/TASK/deploy)#
+#2026 10 12 15:12:25.044#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8636#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:20.267408] Deployment ended at 2026-10-12 15:12:20 (STDOUT, APP/TASK/deploy)#
+#2026 10 12 15:12:25.044#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8636#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:20.267817] (1s 851ms) (STDOUT, APP/TASK/deploy)#
+#2026 10 12 15:12:25.044#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8636#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:20.282969] npm notice (STDERR, APP/TASK/deploy)#
+#2026 10 12 15:12:25.044#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8636#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:20.282984] npm notice New major version of npm available! 11.17.0 -> 12.2.0 (STDERR, APP/TASK/deploy)#
+#2026 10 12 15:12:25.044#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8636#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:20.282987] npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.0 (STDERR, APP/TASK/deploy)#
+#2026 10 12 15:12:25.044#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8636#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:20.282989] npm notice To update run: npm install -g npm@12.2.0 (STDERR, APP/TASK/deploy)#
+#2026 10 12 15:12:25.044#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8636#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:20.282991] npm notice (STDERR, APP/TASK/deploy)#
+#2026 10 12 15:12:25.044#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8636#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:20.465589] Exit status 0 (STDOUT, APP/TASK/deploy)#
+#2026 10 12 15:12:25.044#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8636#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:20.698964] Cell 684caff8-89cd-492b-be01-b3d0835f1763 stopping instance 6eca7d93-3537-4924-9554-decaca32776e (STDOUT, CELL)#
+#2026 10 12 15:12:25.044#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8636#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:20.699004] Cell 684caff8-89cd-492b-be01-b3d0835f1763 destroying container for instance 6eca7d93-3537-4924-9554-decaca32776e (STDOUT, CELL)#
+#2026 10 12 15:12:25.044#Z#DEBUG#13792af1-c64f-11f1-ba8b-eeee0a82e0f9.invoicemanagement-db-deployer#flowable-async-job-executor-thread-8636#
+[PollExecuteTaskStatusExecution] 424548b1-9277-40a8-82a8-500c5ffcb61a [2026-10-12T15:12:21.709526] Cell 684caff8-89cd-492b-be01-b3d0835f1763 successfully destroyed container for instance 6eca7d93-3537-4924-9554-decaca32776e (STDOUT, CELL)#
