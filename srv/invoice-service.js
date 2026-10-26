@@ -9,6 +9,7 @@ export class InvoiceService extends cds.ApplicationService {
       const { invoiceDate, dueDate } = req.data;
       if (invoiceDate && dueDate && dueDate < invoiceDate) {
         req.error(400, 'Due date must be on or after the invoice date.');
+        //test line for pipeline test
       }
       console.log('Before CREATE/UPDATE Invoices', req.data)
     })
