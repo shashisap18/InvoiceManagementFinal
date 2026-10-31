@@ -1,6 +1,6 @@
 using { com.invoiceapp as inv } from '../db/schema.cds';
 
-service InvoiceService @(path: '/invoice', requires: 'authenticated-user') {
+service InvoiceService @(path: 'invoice', requires: 'authenticated-user') {
 
     @odata.draft.enabled
     entity Invoices @(

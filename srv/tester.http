@@ -1,27 +1,31 @@
+###ads
+GET http://localhost:4004/odata/v4/invoice/$metadata
+Authorization: Basic shashi:shashi
+
 ###GET all Invoices
-GET http://localhost:4004/invoice/Invoices
+GET http://localhost:4004/odata/v4/invoice/Invoices
 Authorization: Basic shashi:shashi
 
 ###GET all Invoice Items
-GET http://localhost:4004/invoice/LineItems
+GET http://localhost:4004/odata/v4/invoice/LineItems
 
 ###GET particular Invoice Details
-GET http://localhost:4004/invoice/Invoices/30000000-0000-0000-0000-000000000006
+GET http://localhost:4004/odata/v4/invoice/Invoices/30000000-0000-0000-0000-000000000006
 
 ###GET particular Invoice Line Item details
-GET http://localhost:4004/invoice/Invoices/30000000-0000-0000-0000-000000000001/lineItems
+GET http://localhost:4004/odata/v4/invoice/Invoices/30000000-0000-0000-0000-000000000001/lineItems
 
 ###GET lineItems of specific invoice with expand
-GET http://localhost:4004/invoice/Invoices/30000000-0000-0000-0000-000000000004?$expand=lineItems
+GET http://localhost:4004/odata/v4/invoice/Invoices/30000000-0000-0000-0000-000000000004?$expand=lineItems
 
 ###GET all vendors
-GET http://localhost:4004/invoice/Vendors
+GET http://localhost:4004/odata/v4/invoice/Vendors
 
 ###GET metadata of all entities
-GET http://localhost:4004/invoice/$metadata
+GET http://localhost:4004/odata/v4/invoice/$metadata
 
 ###Insert a new record to the Invoice
-POST http://localhost:4004/invoice/Invoices
+POST http://localhost:4004/odata/v4/invoice/Invoices
 Content-Type: application/json
 
 {
@@ -42,7 +46,7 @@ Content-Type: application/json
 }
 
 ###Insert a new Line Item under the newly created Invoice
-POST http://localhost:4004/invoice/Invoices
+POST http://localhost:4004/odata/v4/invoice/Invoices
 Content-Type: application/json
 
 {
@@ -89,4 +93,4 @@ Content-Type: application/json
 }
 
 ###SubmitInvoice Action - custom action to change invoice status to Submitted
-POST http://localhost:4004/invoice/Invoices(30000000-0000-0000-0000-000000000002)/InvoiceService.submitInvoice
+POST http://localhost:4004/odata/v4/invoice/Invoices(30000000-0000-0000-0000-000000000002)/InvoiceService.submitInvoice
