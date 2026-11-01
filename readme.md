@@ -20,3 +20,5 @@ File or Folder | Purpose
 ## Learn More
 
 Learn more at <https://cap.cloud.sap>.
+
+Deleted the cf auth service as the role name was mis-matching between dev and qa. Now will deploy to Dev again to match the Role name in qa.
